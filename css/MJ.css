@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'Coolvetica';
+    src: url(../fonts/CoolveticaRg-Regular\ 400.ttf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 720px;
+    height: 1266px;
+    background-image: url('../img/MJ.jpg');
+    background-repeat: no-repeat;
+}
+
+li{
+    list-style: none;
+    list-style-type: none;
+    list-style-position: none;
+}
+
+#arriba{
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+#arriba-izquierda{
+    float: left;
+    width: 75%;
+    margin-bottom: 0px;
+    border-top: 8px solid;
+    border-color: white;
+}
+
+#arriba-derecha{
+    float: left;
+    width: 25%;
+    border-top: 8px solid;
+    border-color: rgb(211, 209, 209);
+}
+
+#arriba-derecha svg{
+    float: right;
+    margin-top: 13px;
+    margin-right: 5px;
+}
+
+.dropdown-menu{
+    background-color: rgb(56, 56, 56)!important;
+}
+
+.si{
+    color: green !important;
+}
+
+.no{
+    color: red !important;
+}
+
+#logo{
+    float: left;
+    width: 19%;
+}
+
+.logo{
+    float: left;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+#perfil-minuto-cancion{
+    float: left;
+    width: 81%;
+}
+
+#perfil-minuto{
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+
+.perfil{
+    float: left;
+    color: white;
+    padding-top: 4px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.minuto{
+    float: left;
+    color: rgb(211, 209, 209);
+    margin-left: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#cancion{
+    float: left;
+    width: 100%;
+}
+
+#cancion a{
+    text-decoration: none;
+}
+
+#cancion img{
+    float: left;
+}
+
+.cancion{
+    float: left;
+    color: white;
+    margin-left: 5px;
+}
+
+#medio{
+    float: left;
+    width: 100%;
+    height: 1166px;
+}
+
+.texto{
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 25px;
+    color:  purple;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+    transform: rotate(-30deg);
+}
+
+
+.insta{
+    position: absolute;
+    font-family: 'Coolvetica';
+    font-size: 20px;
+    text-decoration: none;
+    color: purple;
+    margin-top: 550px;
+    margin-left: 300px;
+} 
+
+#abajo{
+    float: left;
+    width: 100%;
+    height: 130px;
+    background-color: black;
+}
+
+#abajo-izquierda{
+    float: left;
+    width: 70%;
+}
+
+#abajo-izquierda input{
+    float: left;
+    width: 500px;
+    height: 95px;
+    margin-top: 17px;
+    margin-left: 20px;
+    background-color: transparent;
+    border-radius: 30%;
+    border: 2px solid grey;
+}
+
+#abajo-izquierda input::placeholder{
+    font-size: 20px;
+    color: white;
+    padding-left: 15px;
+}
+
+.enviar{
+    position: absolute;
+    margin-top: 53px;
+    margin-left: 450px;
+    color: rgb(211, 209, 209); 
+}
+
+.enviar:hover{
+    color: white;
+}
+
+#abajo-derecha{
+    float: left;
+    width: 30%;
+}
+
+#abajo-derecha svg{
+    float: left;
+    margin-top: 44px;
+    margin-left: 45px;
+}
+
+#abajo-derecha img{
+    float: left;
+    margin-top: 40px;
+    margin-left: 55px;
+}
+
